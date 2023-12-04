@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="./style_adm.css" />
+    
+        <title>ADM</title>
+    </head>
+    <body>
+        <div class="container"> <!--borda principal-->
+            <section class="header">
+                <h1>PROZ Contratação</h1>
+                <br>
+                <h2>Requisitos</h2>
+            </section>
+        
+    <!--Faixa Etaria-->
+
+        <div class="form-content">          
+            <label for="idade">Idade:</label>
+            <input name="idade" type="number" min="16" placeholder="idade minima: 16">
+            <!--<a>Mensagem de erro...</a>-->
+        </div>
+
+    <!--Formações --> 
+
+        <div class="form-content"> 
+            <label for="formacao">Formações Aacademica:</label>
+            <br>
+            <textarea name="descricao" cols="35" rows="3" placeholder="ex: ADM,Logistica"></textarea>
+        </div>
+    <!--Tempo de Formação-->    
+
+        <div class="form-content">          
+            <label for="tempfor">Tempo de Formação:</label>
+            <input name="tempfor" type="number" min="1" place>
+            <!--<a>Mensagem de erro...</a>-->
+        </div>
+
+    <!--Especializaçao-->
+
+    <div class="form-content"> 
+        <label for="espec">Especializaçao:</label>
+        <br>
+        <textarea name="descricao" cols="35" rows="3" placeholder="ex: Lideres"></textarea>
+    </div>
+
+     <!--Tempo de Experiencia-->    
+
+     <div class="form-content">          
+        <label for="temexp">Tempo de Experiencia:</label>
+        <input name="temexp" type="number" placeholder="No minimo 1 ano" min="1">
+        <!--<a>Mensagem de erro...</a>-->
+    </div>
+        
+    <!--AVANÇAR E VOLTAR-->
+        <div class="form-content">
+            <form action="pag3.html" method="get">
+                <input type="submit" value="Avançar">
+            </form>
+<br>
+            <form action="pag1.html" method="get">
+                <input type="submit" value="Voltar">
+            </form>
+        </div>
+</body>
+</html>

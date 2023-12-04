@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./style_adm.css" />
+
+    <title>ADM</title>
+</head>
+<body>
+    <div class="container"> <!--borda principal-->
+        <section class="header">
+            <h1>PROZ Contratação</h1>
+            <br>
+            <h2>Dados Pessoais</h2>
+        </section>
+       
+    <!--Nome-->
+
+        <div class="form-content">
+            <label for="username">Primeiro Nome</label>
+            <input type="text" id="username" placeholder="Digite seu primeiro nome..."/>
+            <!--<a>Mensagem de erro...</a>-->
+        </div>
+
+    <!--E-mail-->    
+
+        <div class="form-content">
+            <label for="snome">Sobrenome Nome:</label>
+            <input type="snome" id="snome" placeholder="Digite seu sobrenome..."/>
+            
+        </div>
+
+    <!--Telefone-->    
+
+        <div class="form-content">
+            <label for="tel">Telefone:</label>
+            <input type="tel" id="tel" placeholder="Digite seu telefone..."/>
+          
+        </div>
+
+    <!--E-mail-->
+
+        <div class="form-content">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite o seu e-mail..."/>
+        </div>
+        
+    <!--Sexo-->   
+
+        <div class="form-content">
+            <label for="">Sexo:</label>
+            <select name="sexo">
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Não Declarado">Não Declarado</option>
+                <option value="Outros">Outros</option>
+            </select>
+        </div>
+    
+    <!--Estado Civil-->   
+
+        <div class="form-content">
+            <label for="">Estado Civil:</label>
+            <select name="estado civil">
+                <option value="casado">Casado</option>
+                <option value="Solteiro">Solteiro</option>
+                <option value="Viuvo">Viuvo</option>
+                <option value="Indiferente">Indiferente</option>
+            </select>
+        </div>
+
+    <!--Escolaridade-->
+
+        <div class="form-content">
+            <label for="">Escolaridade:</label>
+            <select name="escolaridade">
+                <option value="Fundamental Incompleto">Fundamental Incompleto</option>
+                <option value="Medio Incompleto">Medio Incompleto</option>
+                <option value="Medio Completo">Medio Completo</option>
+                <option value="Superior Incompleto">Superior Incompleto</option>
+                <option value="Superior Completo">Superior Completo</option>
+            </select> 
+        </div>
+
+    <!--Nascimento-->
+    
+        <div class="form-content">
+            <label for="datanasc">Data Nascimento:</label>
+            <input name="datanasc" type="date">
+        </div>
+            
+
+    <!--CPF-->
+
+        <div class="form-content">
+            <label for="cpf">CPF:</label>
+            <input name="cpf" type="text">
+        </div>
+
+    <!--Naturalidade-->
+
+        <div class="form-content">
+            <label for="natural">Naturalidade:</label>
+            <input name="natural" type="text">
+        </div>
+
+    <!--PCD-->
+
+        <div class="opçoes">
+            <label for="Deficiencia">PCD:</label>
+        
+            <input name="Deficiencia" type="radio" >  
+            <label for="Deficiencia">Sim</label>
+
+            <input name="Deficiencia" type="radio">  
+            <label for="Deficiencia">Não</label>
+        </div>
+
+    <!--AVANÇAR-->
+
+        <div class="form-content"></div>
+            <form action="pag2.html" class="form-content" method="get">
+                <input type="submit" value="Avançar" />
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
